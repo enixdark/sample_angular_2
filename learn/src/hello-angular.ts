@@ -1,16 +1,16 @@
 import {Component} from '@angular/core';
 
 @Component({
-  selector: 'my-app',
+  selector: 'hello-angular',
   template: `
     <div>
       {{ text }}
     </div>
   `
 })
-export default class App {
+export default class HelloAngular {
   public text: string;
   constructor() {
-    this.text = 'Hello world!';
+    this.text = 'Hello Angular 2';
   }
 }
